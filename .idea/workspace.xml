@@ -25,11 +25,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="calculadora3Test.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/calculadora3Test.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-9.807693" vertical-offset="0" max-vertical-offset="5440">
+              <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="conn.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/conn.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="289">
-              <caret line="4" column="85" selection-start-line="4" selection-start-column="85" selection-end-line="4" selection-end-column="85" />
+            <state vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="323">
+              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="6" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -38,8 +48,18 @@
       <file leaf-file-name="logar.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/logar.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3041145" vertical-offset="0" max-vertical-offset="559">
-              <caret line="10" column="79" selection-start-line="10" selection-start-column="79" selection-end-line="10" selection-end-column="79" />
+            <state vertical-scroll-proportion="0.27419356" vertical-offset="0" max-vertical-offset="558">
+              <caret line="9" column="40" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="calculadora3.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/libraries/calculadora3.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-5.230769" vertical-offset="0" max-vertical-offset="5712">
+              <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -70,7 +90,6 @@
         <option value="$PROJECT_DIR$/calculadora2.php" />
         <option value="$PROJECT_DIR$/registrar.php" />
         <option value="$PROJECT_DIR$/calculadora3.php" />
-        <option value="$PROJECT_DIR$/test/calculadora3Test.php" />
         <option value="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" />
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/vendor/bin/phpunit.bat" />
@@ -78,6 +97,7 @@
         <option value="$PROJECT_DIR$/test/IndexTest.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/test/LogarTest.php" />
+        <option value="$PROJECT_DIR$/test/calculadora3Test.php" />
         <option value="$PROJECT_DIR$/conn.php" />
         <option value="$PROJECT_DIR$/logar.php" />
       </list>
@@ -163,7 +183,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/01-calculadora-noturno" />
     <property name="FullScreen" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="options.lastSelected" value="Configurable.PHP.PHPUnit" />
@@ -507,34 +527,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/calculadora3Test.php">
+    <entry file="file://$PROJECT_DIR$/app/libraries/calculadora3.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.45617172" vertical-offset="0" max-vertical-offset="5440">
-          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+        <state vertical-scroll-proportion="-5.230769" vertical-offset="0" max-vertical-offset="5712">
+          <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/libraries/calculadora3.php">
+    <entry file="file://$PROJECT_DIR$/test/calculadora3Test.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1824687" vertical-offset="0" max-vertical-offset="5712">
-          <caret line="6" column="25" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="25" />
+        <state vertical-scroll-proportion="-9.807693" vertical-offset="0" max-vertical-offset="5440">
+          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/conn.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="289">
-          <caret line="4" column="85" selection-start-line="4" selection-start-column="85" selection-end-line="4" selection-end-column="85" />
+        <state vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="323">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="6" selection-end-column="36" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/logar.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3041145" vertical-offset="0" max-vertical-offset="559">
-          <caret line="10" column="79" selection-start-line="10" selection-start-column="79" selection-end-line="10" selection-end-column="79" />
+        <state vertical-scroll-proportion="0.27419356" vertical-offset="0" max-vertical-offset="558">
+          <caret line="9" column="40" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
           <folding />
         </state>
       </provider>
