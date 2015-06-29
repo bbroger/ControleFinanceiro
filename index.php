@@ -35,8 +35,6 @@
 </form>
     <a href="cadastro.php"><img src="cadastrar.jpg"></a>
 <?php include 'logar.php'; ?>
-
-
 </div> 
 </body>
 </html>
