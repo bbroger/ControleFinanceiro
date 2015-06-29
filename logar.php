@@ -5,10 +5,10 @@ if (isset($_REQUEST['logar'])) {
 
     $usuario = $_REQUEST['usuario'];
     $senha = $_REQUEST['senha'];
-
-    $mongo = new Mongo('mongodb://waltimlmm:ds4na5ck@ds047762.mongolab.com:47762/minhaconta');
+    $mongo = new Mongo('mongodb://waltim:123456@ds047762.mongolab.com:47762/minhaconta');
+//    $mongo = new Mongo();
     $db = $mongo->conta;
-    $user = $db->conta->findOne(array("usuario" => $usuario, "senha" => $senha),array('_id','nome','email'));
+    $user = $db->conta->findOne(array("usuario" => $usuario, "senha" => $senha));
 
 
     if ($user == 0) {
