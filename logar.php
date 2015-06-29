@@ -5,7 +5,8 @@ if (isset($_REQUEST['logar'])) {
 
     $usuario = $_REQUEST['usuario'];
     $senha = $_REQUEST['senha'];
-    $mongo = new Mongo();
+
+    $mongo = new Mongo('mongodb://waltimlmm:ds4na5ck@ds047762.mongolab.com:47762/minhaconta');
     $db = $mongo->conta;
     $user = $db->conta->findOne(array("usuario" => $usuario, "senha" => $senha),array('_id','nome','email'));
 
