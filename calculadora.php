@@ -1,15 +1,4 @@
-<?php session_start();
-
-
-
-if((!isset ($_SESSION['usuario']) == true) && (!isset ($_SESSION['senha']) == true)) 
-{ 
-unset($_SESSION['usuario']); 
-unset($_SESSION['senha']);
-header("location:index.php");
-}
-
-else
+<?php
     if( isset($_POST['num0']) && isset($_POST['num1']) && isset($_POST['num2']) && isset($_POST['num3']) && isset($_POST['num4'])
         && isset($_POST['num5']) && isset($_POST['num6'])&& isset($_POST['num7'])&& isset($_POST['num8'])
         && isset($_POST['num9'])&& isset($_POST['num10'])&& isset($_POST['num11'])&& isset($_POST['num12'])&& isset($_POST['num13'])
@@ -27,8 +16,6 @@ else
          $gastos2 = ($salario - $gastos );
          $porcentagem = $gastos2*100 / $salario;
          $data = date("d/m/y");
-
-
 } else {
 	echo "Digite os valores para calcular seus gastos!";
 	echo '<a href="admin.php">Voltar</a>';
@@ -49,24 +36,12 @@ else
 
 <body>
 
-<?php
-
-$secao_usuario = $_SESSION['usuario'];
-$secao_senha = $_SESSION['senha'];
-?>
-<?php
-if(isset($_REQUEST['sair'])){
-
-    session_destroy();
-    header("location:index.php");
-}
-?>
 
 <div id="topo">
     <table>
         <tr>
-            <td><h1> Logado como : <?php  echo $secao_usuario; ?></h1></td>
-            <td><a href="?sair"><img src="logout-button-md.png"></a></td>
+            <td><h1> Sistema gratuíto de controle financeiro</h1></td>
+            <!--            <td><a href="?sair"><img src="logout-button-md.png"></a></td>-->
         </tr>
     </table>
 </div>
@@ -144,7 +119,7 @@ echo "O que sobrou do seu salário/renda : R$ " . number_format($gastos2,2,',','
         </tr>
     </table>
 <?php
-echo '<br /><a href="admin.php"><img src="fechar.gif"></a>';
+echo '<br /><a href="index.php"><img src="fechar.gif"></a>';
 ?>
 
 

@@ -1,10 +1,8 @@
-
-
 <!doctype html>
 
 <html>
 <meta charset="utf-8">
-<link rel="stylesheet" type="text/css" href="estilo2.css"/>
+<link rel="stylesheet" type="text/css" href="css/estilo2.css"/>
 <head> 
  <title>admin</title>
 
@@ -118,7 +116,6 @@ $secao_usuario = "Usuário de teste";
             <label for="num24">Outros:
             <input name="num24" required="required" placeholder="R$ '99.999,9' "/></label><br/>
             <input type="submit" name="visualizar" value="Visualizar Resultado" />
-            <input type="submit" name="excel" value="Salvar Resultado" />
 		</form>
 
          </fieldset>
