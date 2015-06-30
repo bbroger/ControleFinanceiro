@@ -1,15 +1,4 @@
-<?php //session_start(); ?>
-<!---->
-<?php
-//
-//if((!isset ($_SESSION['usuario']) == true) && (!isset ($_SESSION['senha']) == true))
-//{
-//unset($_SESSION['usuario']);
-//unset($_SESSION['senha']);
-//header("location:index.php");
-//}
-//
-//?>
+
 
 <!doctype html>
 
@@ -29,13 +18,6 @@
 $secao_usuario = "Usuário de teste";
 
 ?>
-<?php
-//if(isset($_REQUEST['sair'])){
-//
-//    session_destroy();
-//    header("location:index.php");
-//}
-//?>
 
 <div id="topo">
     <table>

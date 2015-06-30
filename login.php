@@ -1,4 +1,4 @@
-<?php //session_start(); include 'conn.php';?>
+
 <!doctype html>
 
 <html lang="pt-br">
